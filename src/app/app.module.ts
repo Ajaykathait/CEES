@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginformComponent } from './loginform/loginform.component';
+import { ImageShowComponent2Component } from './image-show-component2/image-show-component2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginformComponent
+    LoginformComponent,
+    ImageShowComponent2Component
   ],
   imports: [
     BrowserModule,
